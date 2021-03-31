@@ -190,6 +190,18 @@ Para la realización de la clase **Combat** nos apoyamos en dos funciones y en e
 
 [Pruebas unitarias realizadas](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct06-generics-solid-alu0101119663/blob/master/tests/ejercicio-2.spec.ts)
 
+### isConverible
+```
+export interface isConvertible<T> {
+  value: number;
+  unit: T;
+}
+```
+En este fichero creamos una interfaz con el valor que va a tener la magnitud y la unidad que lo representará.
+
+### Temperatura
+Al ser diferentes magnitudes que utlizarán estas interfaces, serán muy parecidas. Por lo tanto sólo comentaré una. Para crear la clase temparatura, primero he creado un *enum* para tener los valores correspondientes para pasar de una magnitud a otra. Tras esto, creamos la clase **Temperatura** que implementa la interfaz creada con el tipo de datos *TemperaturaUnit*, con los atributos para la unidad y el valor numérico que tendrá. Estos serán los parámetros que le pasaremos al constructor. Por último mencionar la función o método mas importante que es la llamada **convertidor**. Esta recibe por parámetro la nueva unidad, se crean las variables *resultado* y *sol*. Tras esto tenemos un *switch* que según la nueva unidad que introduzcamos pues calculará el resultado y los guardará en la variable *resultado* y una vez calculado este valor númerico se concatena la unidad, en la variable *sol*, y se devuleve la cadena que contiene el valor númerico con la unidad nueva que se ha introducido por parámetro.
+
 ## Ejercicio 3 - DSIflix
 [Codigo resuelto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct06-generics-solid-alu0101119663/tree/master/src/ejercicio-3)
 
