@@ -1,6 +1,26 @@
 {
   "entryPoints": [
-    "./src/"
+    "./src/ejercicio-1/Combat.ts",
+    "./src/ejercicio-1/DCComics.ts",
+    "./src/ejercicio-1/DragonBall.ts",
+    "./src/ejercicio-1/Fighter.ts",
+    "./src/ejercicio-1/Marvel.ts",
+    "./src/ejercicio-1/Pokemon.ts",
+    "./src/ejercicio-1/StarWars.ts",
+    "./src/ejercicio-1/WikiFighter.ts",
+    "./src/ejercicio-2/Fuerza.ts",
+    "./src/ejercicio-2/isConvertible.ts",
+    "./src/ejercicio-2/Longitud.ts",
+    "./src/ejercicio-2/Masa.ts",
+    "./src/ejercicio-2/Temperatura.ts",
+    "./src/ejercicio-2/Tiempo.ts",
+    "./src/ejercicio-2/Velocidad.ts",
+    "./src/ejercicio-2/Volumen.ts",
+    "./src/ejercicio-3/BasicStreamableCollection.ts",
+    "./src/ejercicio-3/Documental.ts",
+    "./src/ejercicio-3/Pelicula.ts",
+    "./src/ejercicio-3/Serie.ts",
+    "./src/ejercicio-3/Streamable.ts"
   ],
   "out": "./docs"
 }
